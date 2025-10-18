@@ -153,7 +153,7 @@ namespace ADCollector3
             {
                 foreach(string name in file)
                 {
-                    if (name != null && name == string.Empty) { files.Add(name); }
+                    if (name != null && name != string.Empty) { files.Add(name); }
                 }
             }
             return files;
